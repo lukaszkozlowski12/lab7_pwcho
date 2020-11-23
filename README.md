@@ -18,8 +18,8 @@ frontend. Apache ma wystawiony na świat zewnętrzy port 6666.
 
 ### Uruchamianie:
 
-```bash docker-compose up ```
+```docker-compose up ```
 
 ### Zatrzymanie:
 
-```bash docker-compose down ```
+```docker-compose down ```
