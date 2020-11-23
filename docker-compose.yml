@@ -1,0 +1,27 @@
+version: "3.3"
+
+services:
+    apache:
+        build:
+            context: ./apache
+        expose:
+            - 6666
+        networks:
+            - backend
+            - frontend
+    php:
+        build:
+            context: ./php
+
+        networks:
+            - backend
+    mysql:
+        build:
+            context: ./mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+        networks:
+            - backend
+networks:
+    backend:
+    frontend:
