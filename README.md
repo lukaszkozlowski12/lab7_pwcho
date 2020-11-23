@@ -16,12 +16,10 @@ DockerHub i umieszczonych tam plików Dockerfile,
 2.Serwery PHP i MySQL są przyłączone do sieci backend, a Apache do backend oraz
 frontend. Apache ma wystawiony na świat zewnętrzy port 6666.
 
-##Uruchamianie:
+###Uruchamianie:
 
-```bash
-docker-compose up
+```bash docker-compose up ```
 
-## Zatrzymanie 
+###Zatrzymanie:
 
-```bash
-docker-compose down
+```bash docker-compose down ```
